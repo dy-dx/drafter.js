@@ -110,6 +110,7 @@ class Drafter
   @defaultConfig:
     requireBlueprintName: false # Treat missing API name as error
     exportSourcemap: false      # Generate source map
+    type: 'ast'
 
   # Constructor
   #

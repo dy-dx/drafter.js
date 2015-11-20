@@ -47,7 +47,8 @@ if (argError) {
 // Prepare configuration
 var config = {
   requireBlueprintName: false,
-  exportSourcemap: argv.sourcemap === true
+  exportSourcemap: argv.sourcemap === true,
+  type: 'ast'
 };
 
 // Run the circus
